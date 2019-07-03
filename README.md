@@ -1,6 +1,8 @@
 # DSCResource MetaTest OptIn Report 03 July 2019
 
-| Module |Validate<br>Markdown<br>Files | Validate<br>Example<br>Files | Validate<br>Module<br>Files | Validate<br>Script<br>Files | Required<br>Script<br>Analyzer<br>Rules | Flagged<br>Script<br>Analyzer<br>Rules | New<br>Error-Level<br>Script<br>Analyzer<br>Rules | Custom<br>Script<br>Analyzer<br>Rules | Validate<br>Example<br>Files<br>To<br>Be<br>Published | Spellcheck<br>Files | Validate<br>Markdown<br>Links | Relative<br>Path<br>Length | Validate<br>Localization | 
+## DscResources
+
+| Module | Validate<br>Markdown<br>Files | Validate<br>Example<br>Files | Validate<br>Module<br>Files | Validate<br>Script<br>Files | Required<br>Script<br>Analyzer<br>Rules | Flagged<br>Script<br>Analyzer<br>Rules | New<br>Error-Level<br>Script<br>Analyzer<br>Rules | Custom<br>Script<br>Analyzer<br>Rules | Validate<br>Example<br>Files<br>To<br>Be<br>Published | Spellcheck<br>Files | Validate<br>Markdown<br>Links | Relative<br>Path<br>Length | Validate<br>Localization |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 | ActiveDirectoryCSDsc | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
 | AuditPolicyDsc | No | No | No | No | No | No | No | No | No | No | No | No | No |
@@ -20,6 +22,11 @@
 | SystemLocaleDsc | Yes | Yes | Yes | Yes | No | No | No | No | No | No | No | No | No |
 | WmiNamespaceSecurityDsc | No | No | No | No | No | No | No | No | No | No | No | No | No |
 | WSManDsc | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | No |
+
+## xDscResources
+
+| Module | Validate<br>Markdown<br>Files | Validate<br>Example<br>Files | Validate<br>Module<br>Files | Validate<br>Script<br>Files | Required<br>Script<br>Analyzer<br>Rules | Flagged<br>Script<br>Analyzer<br>Rules | New<br>Error-Level<br>Script<br>Analyzer<br>Rules | Custom<br>Script<br>Analyzer<br>Rules | Validate<br>Example<br>Files<br>To<br>Be<br>Published | Spellcheck<br>Files | Validate<br>Markdown<br>Links | Relative<br>Path<br>Length | Validate<br>Localization |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 | xActiveDirectory | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | No | Yes | Yes | Yes |
 | xAzure | No | No | No | No | No | No | No | No | No | No | No | No | No |
 | xAzurePack | No | No | No | No | No | No | No | No | No | No | No | No | No |
