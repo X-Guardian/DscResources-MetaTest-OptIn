@@ -1,5 +1,5 @@
 $path = Join-Path -Path $PSScriptRoot -ChildPath 'DscResources'
-& git clone --recurse https://github.com/PowerShell/DscResources $Path
+# & git clone --recurse https://github.com/PowerShell/DscResources $Path
 
 $metaTestOptInMasterFile = Join-Path -Path $PSScriptRoot -ChildPath '.MetaTestOptIn.json'
 $metaTests = Get-Content -Path $metaTestOptInMasterFile | ConvertFrom-Json
@@ -34,7 +34,8 @@ foreach ($dscResourceFolder in $dscResourceFolders)
 
     foreach ($dscResource in $dscResources)
     {
-        $markdownModuleLine = "| $($dscResource.Name) |"
+        $dscResourceUrl = "[$($dscResource.Name)](https://github.com/PowerShell/$($dscResource.Name))"
+        $markdownModuleLine = "| $dscResourceUrl |"
         $metaTestOptInFile = "$($dscResource.FullName)\.MetaTestOptIn.json"
 
         if (Test-Path -Path $metaTestOptInFile)
